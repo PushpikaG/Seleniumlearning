@@ -2,15 +2,13 @@ package week1.day1;
 
 public class primenumberassignmentday1 {
 	public static void main(String[] args) {
-		int inputNum=13;
-		boolean flagTest=false;
-		for(int i=2;i<7;i++)
+		int inputNum=9;
+		boolean flagTest=true;
+		for(int i=2;i<inputNum;i++)
 		{
-			if(inputNum%i>0) {
-				flagTest=true;
-			}
-			else {
+			if(inputNum%i==0) {
 				flagTest=false;
+				break;
 			}
 			}
 			
