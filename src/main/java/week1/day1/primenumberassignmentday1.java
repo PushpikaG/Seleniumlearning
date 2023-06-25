@@ -6,9 +6,14 @@ public class primenumberassignmentday1 {
 		boolean flagTest=false;
 		for(int i=2;i<7;i++)
 		{
-			int x=inputNum%i;
-			flagTest=true;
-		}
+			if(inputNum%i>0) {
+				flagTest=true;
+			}
+			else {
+				flagTest=false;
+			}
+			}
+			
 		if (flagTest==true)
 		{
 			System.out.println("Prime number"+inputNum);
